@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "spdx-expression-paths"
+version = "0.1.0"
+description = "Enumerate bounded conjunction alternatives, applying AND precedence, parentheses and atomic WITH exceptions."
+requires-python = ">=3.10"
+license = "MIT"
+readme = "README.md"
+authors = [{name = "Dr. Nripanka Das", email = "nripankadas@gmail.com"}]
+dependencies = []
+[project.scripts]
+spdx-expression-paths = "spdx_expression_paths:main"
+[tool.setuptools]
+py-modules = ["spdx_expression_paths"]

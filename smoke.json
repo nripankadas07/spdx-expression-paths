@@ -1,0 +1,17 @@
+[
+  {
+    "args": [
+      "(MIT OR Apache-2.0) AND Zlib"
+    ],
+    "exit": 0,
+    "expect": {
+      "count": 2
+    }
+  },
+  {
+    "args": [
+      "MIT AND"
+    ],
+    "exit": 2
+  }
+]
